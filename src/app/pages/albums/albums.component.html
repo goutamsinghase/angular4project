@@ -1,0 +1,5 @@
+<button class="transparent" md-button (click)="goBack()"><img src="https://image.flaticon.com/icons/png/128/61/61022.png"></button>
+<md-card *ngFor="let album of albums" class="album" (click)="goToPhoto(album)">
+    Album Name: {{ album.title }}<br>
+</md-card>
+   

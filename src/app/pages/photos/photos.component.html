@@ -1,0 +1,6 @@
+<button class="transparent" md-button (click)="goBack()"><img src="https://image.flaticon.com/icons/png/128/61/61022.png"></button>
+<md-grid-list cols="2" rowHeight="2:1">
+  <md-grid-tile *ngFor="let photo of photos">
+  	<img src="{{photo.url}}">
+  </md-grid-tile>
+</md-grid-list>
